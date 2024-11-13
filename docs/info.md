@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-take 2 i bit inputs and adds them togther with a carry
+take 2 2 bit inputs and adds them togther 
 
 ## How to test
 
