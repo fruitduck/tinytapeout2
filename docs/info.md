@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+take 2 i bit inputs and adds them togther with a carry
 
 ## How to test
 
-Explain how to use your project
+test all possible cases in wokwi
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+none
