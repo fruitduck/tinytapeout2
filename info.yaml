@@ -1,12 +1,12 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     403553645524202497       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "D Flip-Flop with Reset"      # Project title
+  wokwi_id:     414431340472488961       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "2-bit full adder"      # Project title
   author:       "Winston Li"      # Your name
   discord:      "NA"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "D flip-flop with synchronous reset and clock"      # One line description of what your project does
+  description:  "2 bit full adder"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     1       # Set clock frequency in Hz
+  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -14,24 +14,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "clk"          # Data input for the D flip-flop
-  ui[1]: "reset"        # Clock input for the D flip-flop
-  ui[2]: ""        # Reset input for the D flip-flop
-  ui[3]: ""           
-  ui[4]: ""           
-  ui[5]: ""           
-  ui[6]: ""           
-  ui[7]: ""           
+  ui[0]: "Cin"
+  ui[1]: "A0"
+  ui[2]: "A1"
+  ui[3]: "B0"
+  ui[4]: "B1"
+  ui[5]: ""
+  ui[6]: ""
+  ui[7]: ""
 
   # Outputs
-  uo[0]: "led1"          # Main output of the D flip-flop (first LED)
-  uo[1]: "led2"         # Complement of the output (second LED, if implemented)
-  uo[2]: "led3"  # Optional: third LED could show the reset state, or duplicate Q
-  uo[3]: ""           
-  uo[4]: ""           
-  uo[5]: ""           
-  uo[6]: ""           
-  uo[7]: ""           
+  uo[0]: "S0"
+  uo[1]: "S1"
+  uo[2]: "S2(Cout1)"
+  uo[3]: "Cout0"
+  uo[4]: ""
+  uo[5]: ""
+  uo[6]: ""
+  uo[7]: ""
 
   # Bidirectional pins
   uio[0]: ""
@@ -39,3 +39,9 @@ pinout:
   uio[2]: ""
   uio[3]: ""
   uio[4]: ""
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: ""
+
+# Do not change!
+yaml_version: 6
