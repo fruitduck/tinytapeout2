@@ -14,9 +14,9 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "D"          # Data input for the D flip-flop
-  ui[1]: "clk"        # Clock input for the D flip-flop
-  ui[2]: "rst"        # Reset input for the D flip-flop
+  ui[0]: "clk"          # Data input for the D flip-flop
+  ui[1]: "reset"        # Clock input for the D flip-flop
+  ui[2]: ""        # Reset input for the D flip-flop
   ui[3]: ""           
   ui[4]: ""           
   ui[5]: ""           
@@ -24,9 +24,9 @@ pinout:
   ui[7]: ""           
 
   # Outputs
-  uo[0]: "Q"          # Main output of the D flip-flop (first LED)
-  uo[1]: "Qn"         # Complement of the output (second LED, if implemented)
-  uo[2]: "Reset_Indicator"  # Optional: third LED could show the reset state, or duplicate Q
+  uo[0]: "led1"          # Main output of the D flip-flop (first LED)
+  uo[1]: "led2"         # Complement of the output (second LED, if implemented)
+  uo[2]: "led3"  # Optional: third LED could show the reset state, or duplicate Q
   uo[3]: ""           
   uo[4]: ""           
   uo[5]: ""           
